@@ -1,0 +1,734 @@
+.
+├── RQ1
+│   ├── human_evaluation
+│       ├── calculate_correlation.py
+│       ├── cal_human_agreement.py
+│       ├── correlatio_coefficient_log
+│       ├── human_aggrement_log
+│       ├── human_evaluation.xlsx
+│       ├── score.xlsx
+│   ├── README.md
+│   ├── RQ1.ipynb
+│   ├── TLC
+│   │   ├── astattgru
+│   │   │   └── test.pred
+│   │   ├── codenn
+│   │   │   └── test.pred
+│   │   ├── deepcom
+│   │   │   └── test.pred
+│   │   ├── ncs
+│   │   │   └── test.pred
+│   │   ├── rencos
+│   │   │   └── test.pred
+│   │   └── test.gold
+│   └── TLC_dedup
+│       ├── astattgru
+│       │   └── test.pred
+│       ├── codenn
+│       │   └── test.pred
+│       ├── deepcom
+│       │   └── test.pred
+│       ├── ncs
+│       │   └── test.pred
+│       ├── rencos
+│       │   └── test.pred
+│       └── test.gold
+├── RQ2
+│   ├── data_processing_result
+│   │   ├── astattgru
+│   │   │   ├── ensemble
+│   │   │   │   └── test.pred
+│   │   │   ├── P0000
+│   │   │   │   └── test.pred
+│   │   │   ├── P0001
+│   │   │   │   └── test.pred
+│   │   │   ├── P0010
+│   │   │   │   └── test.pred
+│   │   │   ├── P0011
+│   │   │   │   └── test.pred
+│   │   │   ├── P0100
+│   │   │   │   └── test.pred
+│   │   │   ├── P0101
+│   │   │   │   └── test.pred
+│   │   │   ├── P0110
+│   │   │   │   └── test.pred
+│   │   │   ├── P0111
+│   │   │   │   └── test.pred
+│   │   │   ├── P1000
+│   │   │   │   └── test.pred
+│   │   │   ├── P1001
+│   │   │   │   └── test.pred
+│   │   │   ├── P1010
+│   │   │   │   └── test.pred
+│   │   │   ├── P1011
+│   │   │   │   └── test.pred
+│   │   │   ├── P1100
+│   │   │   │   └── test.pred
+│   │   │   ├── P1101
+│   │   │   │   └── test.pred
+│   │   │   ├── P1110
+│   │   │   │   └── test.pred
+│   │   │   └── P1111
+│   │   │       └── test.pred
+│   │   ├── codenn
+│   │   │   ├── ensemble
+│   │   │   │   └── test.pred
+│   │   │   ├── P0000
+│   │   │   │   └── test.pred
+│   │   │   ├── P0001
+│   │   │   │   └── test.pred
+│   │   │   ├── P0010
+│   │   │   │   └── test.pred
+│   │   │   ├── P0011
+│   │   │   │   └── test.pred
+│   │   │   ├── P0100
+│   │   │   │   └── test.pred
+│   │   │   ├── P0101
+│   │   │   │   └── test.pred
+│   │   │   ├── P0110
+│   │   │   │   └── test.pred
+│   │   │   ├── P0111
+│   │   │   │   └── test.pred
+│   │   │   ├── P1000
+│   │   │   │   └── test.pred
+│   │   │   ├── P1001
+│   │   │   │   └── test.pred
+│   │   │   ├── P1010
+│   │   │   │   └── test.pred
+│   │   │   ├── P1011
+│   │   │   │   └── test.pred
+│   │   │   ├── P1100
+│   │   │   │   └── test.pred
+│   │   │   ├── P1101
+│   │   │   │   └── test.pred
+│   │   │   ├── P1110
+│   │   │   │   └── test.pred
+│   │   │   └── P1111
+│   │   │       └── test.pred
+│   │   ├── ncs
+│   │   │   ├── ensemble
+│   │   │   │   └── test.pred
+│   │   │   ├── P0000
+│   │   │   │   └── test.pred
+│   │   │   ├── P0001
+│   │   │   │   └── test.pred
+│   │   │   ├── P0010
+│   │   │   │   └── test.pred
+│   │   │   ├── P0011
+│   │   │   │   └── test.pred
+│   │   │   ├── P0100
+│   │   │   │   └── test.pred
+│   │   │   ├── P0101
+│   │   │   │   └── test.pred
+│   │   │   ├── P0110
+│   │   │   │   └── test.pred
+│   │   │   ├── P0111
+│   │   │   │   └── test.pred
+│   │   │   ├── P1000
+│   │   │   │   └── test.pred
+│   │   │   ├── P1001
+│   │   │   │   └── test.pred
+│   │   │   ├── P1010
+│   │   │   │   └── test.pred
+│   │   │   ├── P1011
+│   │   │   │   └── test.pred
+│   │   │   ├── P1100
+│   │   │   │   └── test.pred
+│   │   │   ├── P1101
+│   │   │   │   └── test.pred
+│   │   │   ├── P1110
+│   │   │   │   └── test.pred
+│   │   │   └── P1111
+│   │   │       └── test.pred
+│   │   ├── rencos
+│   │   │   ├── ensemble
+│   │   │   │   └── test.pred
+│   │   │   ├── P0000
+│   │   │   │   └── test.pred
+│   │   │   ├── P0001
+│   │   │   │   └── test.pred
+│   │   │   ├── P0010
+│   │   │   │   └── test.pred
+│   │   │   ├── P0011
+│   │   │   │   └── test.pred
+│   │   │   ├── P0100
+│   │   │   │   └── test.pred
+│   │   │   ├── P0101
+│   │   │   │   └── test.pred
+│   │   │   ├── P0110
+│   │   │   │   └── test.pred
+│   │   │   ├── P0111
+│   │   │   │   └── test.pred
+│   │   │   ├── P1000
+│   │   │   │   └── test.pred
+│   │   │   ├── P1001
+│   │   │   │   └── test.pred
+│   │   │   ├── P1010
+│   │   │   │   └── test.pred
+│   │   │   ├── P1011
+│   │   │   │   └── test.pred
+│   │   │   ├── P1100
+│   │   │   │   └── test.pred
+│   │   │   ├── P1101
+│   │   │   │   └── test.pred
+│   │   │   ├── P1110
+│   │   │   │   └── test.pred
+│   │   │   └── P1111
+│   │   │       └── test.pred
+│   │   └── test.gold
+│   └── RQ2.ipynb
+└── RQ3
+    ├── CSN
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── CSN_class_medium
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── CSN_method_medium
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── CSN_method_small
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── CSN_project_medium
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── diff_dup_ratio_bleu_dc.pdf
+    ├── FCM
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   └── test.gold
+    ├── FCM_method_large
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── FCM_method_medium
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── FCM_method_small
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── FCM_project_large
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   ├── random2
+    │   │   │   └── test.pred
+    │   │   └── test.gold
+    │   └── test.gold
+    ├── RQ3.ipynb
+    ├── TLC
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    ├── TLC_dedup
+    │   ├── astattgru
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── codenn
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── deepcom
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── ncs
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   ├── rencos
+    │   │   ├── random0
+    │   │   │   └── test.pred
+    │   │   ├── random1
+    │   │   │   └── test.pred
+    │   │   └── random2
+    │   │       └── test.pred
+    │   └── test.gold
+    └── TLC_diff_dup
+        ├── astattgru
+        │   ├── 00
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 01
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 03
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 05
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 07
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   └── 09
+        │       ├── test.gold
+        │       └── test.pred
+        ├── codenn
+        │   ├── 00
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 01
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 03
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 05
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 07
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   └── 09
+        │       ├── test.gold
+        │       └── test.pred
+        ├── deepcom
+        │   ├── 00
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 01
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 03
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 05
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 07
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   └── 09
+        │       ├── test.gold
+        │       └── test.pred
+        ├── ncs
+        │   ├── 00
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 01
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 03
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 05
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   ├── 07
+        │   │   ├── test.gold
+        │   │   └── test.pred
+        │   └── 09
+        │       ├── test.gold
+        │       └── test.pred
+        └── rencos
+            ├── 00
+            │   ├── test.gold
+            │   └── test.pred
+            ├── 01
+            │   ├── test.gold
+            │   └── test.pred
+            ├── 03
+            │   ├── test.gold
+            │   └── test.pred
+            ├── 05
+            │   ├── test.gold
+            │   └── test.pred
+            ├── 07
+            │   ├── test.gold
+            │   └── test.pred
+            └── 09
+                ├── test.gold
+                └── test.pred
+
+376 directories, 354 files

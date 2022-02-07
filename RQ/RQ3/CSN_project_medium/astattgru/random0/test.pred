@@ -1,0 +1,100 @@
+triggers a unary operator and a custom function collects on the supplied { @link bifunction } .
+converts an observable sequence to an observable of round - safe value . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > { @code . stateful } < / p > <p > <img width = 640 src = https : // raw . github . com / wiki / reactivex / rxjava
+repeats an observable sequence of longs and an observable value . <p > <img width = 640 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / case . png alt = > <dl > <dt > <b > scheduler : < / b > < / dt > <dd
+concatenates the iterable of observable sequence into an observable sequence of inner items . <p > <img width = 640 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / case . png alt = > matchers . <p > <img width = 640 src = https : // raw
+returns an observable sequence that emits the items emitted by the source observable into the provided source . <p > <img width = 640 src = sub > { @code . util . ( iterable concat ( ) == ( ( 2 { 2 { 2 { 10 1000 { iter . of ( 0 ) == 0 . 0 2
+returns an observable sequence that emits the items emitted by the source into an observablesource with the source of the source observable . the source is a subset of { @code observable } or { @code null } if the inner pair is empty or indexoutofboundsexception .
+concatenates an observable into an observablesource with a notification .
+concatenates a cold completable with a backpressure . the resulting observablesource will yield a cold sequence of . the resulting observablesource will yield a four four five - empty emission .
+emits an observable that repeats the input and flips an observable value and a time to be sorted .
+delays which five four fields are eager except that they are ordered . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > the following : { @code () } will be created immediately after the { @code } and delays its error messages . < / p > <p > <img width
+returns a cold sequence of sequence sequence sequence . if an error occurs reaches a sequence of four emits an error then the new happens will be cold completes .
+delays the emission of the observable sequence retrying into the adjusted observablesource events . <p > <img width = 640 height = src = sub > <dt > <b > this / a > this method is invoked when an error happens when the observable sequence is { @code false } or the determinant of the inner sequence is { @code false }
+concatenates a non - emitted non - emitted non repeating a four - placing exponentially subscribing to the source observable . the sorter must be simultaneously emitted by the inputs .
+concatenates a concat emits an observable [ 0 ] after the other singlesource source .
+returns an observable that converts unchecked items to an empty { @code empty } . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / maybe . png alt = > <dl > <dt > <b > scheduler : < /
+returns a { @link observable } that suggests a refund . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable . . png alt = > <dl > <dt > <b > scheduler : < / b >
+converts an array of items into an observablesource with a composite conversion to an observablesource that must be emitted in the array . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / cast . reflection . spec . png alt
+returns an observable that emits an observer subscribes to the source observable . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > { @code } is copied from cold scheduler composition of if the source observablesource from { @link observer } does not support backpressure and { @link ( iterable ) }
+returns a that emits an observer subscribes to the onnext publisher until the source publisher can be scheduled or completes . <p > <img width = 640 height = 526 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / takeuntil . o . png alt = > <dl
+returns a stateful fluent version . <p > the resulting function is not invoked on the corresponding consumer for each subscriber . if the emitted operation is not present it will be used . if the subscriber terminates ( 0 0 0 0 0 0 0 ) it will be created and wrapped . < / p > <p > the resulting change
+returns a cold synchronous stateful executing this maybe when describes one of the elements emitted by a sequence of subscriber states . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > { @inheritdoc } <p > returns a cold non - overlapping sequence of the observable sequence . if the operator is unknown a
+returns the latest value emitted by the specified interval . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable . timer . initial . png alt = > <dl > <dt > <b > scheduler : < / b
+<p > returns an observable of the resulting observable of publisher until a or - emitted value is placed . a new interval behaves like a substring ( 5 ) minimum of two timestamps . this method can be used to produce a long value that is likely to be emitted to the original . unlike { @link ( long long timeunit
+<p > returns an observable of the specified time this method can be used to safely convert a single period to a specified period . this method is primarily for debugging purposes only because the exception is used to construct a new item supplied by default . unlike the equivalent observable you can also specify the same value at most time at most
+returns the range of intervals in the specified range .
+returns the interval range . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / range . max . png alt = > <dl > <dt > <b > scheduler : < / b > < / dt > <dd >
+returns an observable that <p > retrieves an expiring item from the adapter observable that identifies the subscribing type of the adapter . <p > <img width = 640 height = 310 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable . . png alt = >
+emits a concat scheduler from the specified iterable source . dropping the input source . <pre > { @code final int hot newvalue ; < / pre >
+converts an { @link indexoutofboundsexception } into an observable with the specified number of source completables . <p > <img width = 640 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx operators / .
+emits a notification by coping a number of events into a observablesource or emits a sequence of emissions than once completes . <p > <img width = 640 height = 385 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / maybe . merge . . png alt =
+merges the provided { @code } into an observable sequence and an { @code } . if an error occurs while emitting the observablesource will be set into an observablesource with the { @code } signals the backpressure terminates . if an error occurs while emitting the observablesource will be returned from the { @code source } array or {
+merges the given source into pieces and returns the element at the source and second one . <p > <img width = 640 height = 380 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / concat . png alt = > <dl > <dt > <b > scheduler :
+returns an observable that signals the current warning . <p > <img width = 640 height = 335 src src https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / case . png alt = > <dl > <dt > <b > scheduler : < / b > < / dt >
+returns a range that invokes the given items in the range of a specified range . <p > <img width = 640 height = 310 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / range . png alt = > <dl > <dt > <b > scheduler : //
+returns a { @link observable } that repeats the number of elements that are tagged with the specified count or the number of items emitted by the source observable . <p > <img width = 640 height = 310 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable
+converts the given observable source into a single single sequence with additions emitted from the given source into the given source observable . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / log . png alt = > <dl >
+returns a new objectintprocedure that emits items emitted by two items emitted by two items emitted by two sources . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / stateful . . png alt = > <p > this
+returns a new that emits the sequences emitted by the seq or null if the greater or equal signals terminates or if the completes item exceeds a repeating false whichever completes .
+applies a stateful observer to the given observable sequence . if the item subscribing to the source is an observablesource item it will be consumed and emits an error . when the source is emitted or subscriber drops the source signals it then calls a { @link observable } to be used . <dl > <dt > <b > scheduler : < /
+delays the observable sequence of milliseconds eagerly . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > {
+converts an observable of an adapter to a observablesource . <p > <img width = 640 height = 340 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / . png alt = > <dl > <dt > <b > scheduler : < / b > < / dt
+returns a cold observable from a observablesource resource .
+converts an instance of { @link com . google . streaming . managed . streaming . notifications . } . the source emits an observer for a resource and consumer can react to a custom effect . <p > example : <pre > { @code . ( . 2 . 0 . 0 . 0 . 0 . 0 .
+wraps an observer when the maybe emits an observer or a transformer that emits an expiring oncomplete of a source if the maybe is disposed . <p > <img width = 640 height = 518 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / . png alt =
+converts a iterable of { @link io . io . function . sub . sub . sub . png alt } . <p > this differs from iterable and attempts to convert it into a cyclops or parallel iterables across a iterables until a refund emission . a stream of observable buffers a stream terminates if the source is a source sequence of
+returns an observable that invokes a sequence of items from downstream streams . <p > <img width = 640 height = 380 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / maybe . sub . png alt = > <dl > <dt > <b > scheduler : < /
+returns a flowable that emits an unmodifiable subset of iterables or errors if the stream is empty or exceeded if the current item from the iteration . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable . .
+returns a single item that emits the source item that is currently subscribed to the given predicate . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / completable . error . png alt = > <p > the iterator is
+signals a { @link com . google . cloud . . } . a drop event . <p > <img width = 640 height = 385 ; < / p >
+returns a single item that emits the items emitted by a source item . <p > <img width = 640 height = 310 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / maybe . error . live . wrapped . non - png alt = > <dl > <dt
+waits until the source is available or not . <p > <img width = 640 height = src = https : // console . github . com / p >
+calls { @code procedure } and wraps the elements of the returned { @code consumer } into the provided { @code consumer } .
+waits until a poison iterable completes . a stream is emitted by the source observable and returns a success of the same length as they are recycled . <p > <img width = 640 height = 310 null ; < / p >
+returns a buffered object that emits the given source if it is available .
+returns a pseudorandom {
+returns a single item emitted by the provided { @link ( object ) } .
+converts the given {
+converts a 2xx to rejected by publisher . hereby .
+subscribes the provided { @link com . github . google . io . }
+subscribes the provided source into the interface . <p > note : this method is not implemented .
+subscribes the given action to the interface .
+subscribes to the given observer to the observer subscribes .
+returns a observable that returns the items of the given items .
+waits to be the emitted s current item s current state of the buffer . the emitted buffer will be terminated with the returned list of elements .
+returns a view of the items that emits the items that emits them . marks the difference of { @link () } . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / how - to - png >
+returns a copy of the given buffer if the current stream is not null or abort the emission of the emission of the emission of the emission of the emission of the emission of the emission of the emission .
+obtains a list of intervals that are emitted from a window showing the specified parallelism .
+returns a { @code a } corresponding to the specified { @code buffer } . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / log . png alt = >
+initiates a emission of a window .
+returns a list of the items in a window .
+returns a { @code a } state that is accepted by the specified emission observable emits the specified initially completed with the specified emission iteration . <p > if the specified source source { @code } is a { @code cancellationexception } which is signalled . returns immediately terminates if the emission completes with the specified emission iteration . <p > by
+waits until the emitted inner source publisher emits the same observable as a sequence of the emission of the emission emitted by the subscriber .
+returns a that emits a emits completed sequence emitted by the provided observable emits and emits the result to the consumer s sub items . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / . png alt = >
+returns a a list of observable sequence that a emits bounded range emitted by the sequence completes and emits the most recent completed items .
+returns a cold observable representation of the { @link observable } .
+returns a { @link com . google . streaming . fetcher . continuation } for which the current stream emits or take at most once applied continuation emits emitted result . <p > this method differs from the { @link } until the elapsed observablesource intervals are emitted by the emission of the source . <p > by default discards { @code
+returns a single observer which repeats emitted event .
+returns a view of the { @link eigendecomposition } whose items are { @code long } . if the subscriber reaches { @code false } then an empty { @code } is signaled to the back - access sequence .
+calls the supplier and invokes a stateless function by executing the supplied collector . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / . png alt = > <dl > <dt > <b > scheduler : < / b
+returns a single item using a supplier .
+returns a maybe that emits the given observable emits its logical and children . <p > <img width = 640 height = 385 src = https : // raw . github . png >
+returns a view of the given observable sequence . <p > <img width = 640 height = 410 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / single . f . png alt = > <dl > <dt > <b > scheduler : < / b > < /
+returns a view of the given type using the given identity function and returns a every { @code } emitted by the source observable via { @code } . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators /
+returns a view of the given observable sequence . <p > <img width = 640 height = 410 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / observable . concat . png alt = >
+returns a view of the given observable sequence .
+emits an observable that applies a provided function to each other . the emission must be in the same state .
+initiates a epsilon sequence of applying these emission of a specified emission to the left and delta sequences . <p > <img width = 640 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / observable . concat . pn . functions . result . callback
+returns a { @link scheduler } whose keys are the same keys and the specified keys until the given function completes successfully .
+returns a completable item that matches the given condition emitted by emission of the source sequence whose keys are elements from the source maybe . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > {
+delays the supplied function with the emitted by the supplied supplier and completes and signals the result of calling the { @link () } operation .
+maps the upstream data to a completable sink . <dl > <dt > <b > scheduler : < / b > < / dt > <dd > {
+returns a { @link observable } that collects items emitted by the source observable into an iterable that applies a function to the source observable using the provided iterable . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / case
+maps the supplied supplier to its corresponding value using { @link com . google . stateful . identity . maps . apply () } into a single sequence of provided { @code consumer } . <p > <img width = 640 height = 410 src = https : // raw . github . com / wiki / reactivex / rxjava / images /
+returns a stateful sequence that applies to the given { @code source } . unlike { @link ( ) } this method returns the same result as the concatenation of the source observable and invokes the provided function . <p > <img width = 640 height = 410 src = https : // raw . github . com / javase /
+maps the upstream items into {
+delays the provided function and ends emitted by applying the provided function to the observable .
+maps the upstream observable into the concat {
+returns a { @link java . util . map } emits the iterators of the same observable sequence that applies to the provided { @link inputs } from the provided iterable . <p > <img width = 640 height = 356 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators
+maps the executions into a single sequence of items . <p > <img width = 640 height = src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / observable . png alt = > <dl > <dt > <b > scheduler : < / b > < / dt
+returns a { @link observable } produced by observable sequence to the same observable observable builder applied to the provided observable sequence . <p > <img width = 640 height = 356 src = https : // raw . github . com / wiki / reactivex / rxjava / images / rx - operators / maybe . png alt = > <dl >

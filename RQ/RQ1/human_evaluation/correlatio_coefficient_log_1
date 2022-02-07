@@ -1,0 +1,258 @@
+****************************************************************************************************
+Aggregation way: arithmetic_mean
+--------------------------------------------------
+corpus size 1
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.32795815163032604 pvalue=0.0)
+SpearmanrResult(correlation=0.6895326527944815, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.3279401480296059 pvalue=0.0)
+SpearmanrResult(correlation=0.6895231915250678, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.54433974794959 pvalue=0.0)
+SpearmanrResult(correlation=0.7507003707094376, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.47533314662932585 pvalue=0.0)
+SpearmanrResult(correlation=0.6613170674767227, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.3702766953390678 pvalue=0.0)
+SpearmanrResult(correlation=0.5330935169669554, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.32795815163032604 pvalue=0.0)
+SpearmanrResult(correlation=0.6895326527944815, pvalue=0.0)
+--------------------------------------------------
+corpus size 20
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.6086363672734547 pvalue=0.0)
+SpearmanrResult(correlation=0.8030254192000446, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.4130538107621524 pvalue=0.0)
+SpearmanrResult(correlation=0.583217070121312, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.6459559111822365 pvalue=0.0)
+SpearmanrResult(correlation=0.836825955644795, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.6003251850370074 pvalue=0.0)
+SpearmanrResult(correlation=0.794026905537625, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.5674533306661332 pvalue=0.0)
+SpearmanrResult(correlation=0.7620878664595871, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.6086363672734547 pvalue=0.0)
+SpearmanrResult(correlation=0.8030254192000446, pvalue=0.0)
+--------------------------------------------------
+corpus size 40
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.6196650530106022 pvalue=0.0)
+SpearmanrResult(correlation=0.8149226022146973, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.39207409481896377 pvalue=0.0)
+SpearmanrResult(correlation=0.5602634287131528, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.6571324664932987 pvalue=0.0)
+SpearmanrResult(correlation=0.848276021470938, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.6139693538707741 pvalue=0.0)
+SpearmanrResult(correlation=0.8102308614335546, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.582949949989998 pvalue=0.0)
+SpearmanrResult(correlation=0.7805075626059299, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.6196650530106022 pvalue=0.0)
+SpearmanrResult(correlation=0.8149226022146973, pvalue=0.0)
+--------------------------------------------------
+corpus size 60
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.61754774954991 pvalue=0.0)
+SpearmanrResult(correlation=0.8131317748989815, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.38390526105221046 pvalue=0.0)
+SpearmanrResult(correlation=0.5489026179837119, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.6567482296459292 pvalue=0.0)
+SpearmanrResult(correlation=0.8480268467454694, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.6155107021404281 pvalue=0.0)
+SpearmanrResult(correlation=0.8116071204839296, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.5855795159031806 pvalue=0.0)
+SpearmanrResult(correlation=0.7829835560899145, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.61754774954991 pvalue=0.0)
+SpearmanrResult(correlation=0.8131317748989815, pvalue=0.0)
+--------------------------------------------------
+corpus size 80
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.621432926585317 pvalue=0.0)
+SpearmanrResult(correlation=0.815282032518502, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.38179723944788957 pvalue=0.0)
+SpearmanrResult(correlation=0.545510772827591, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.6600668133626726 pvalue=0.0)
+SpearmanrResult(correlation=0.8496154260033248, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.6201748349669934 pvalue=0.0)
+SpearmanrResult(correlation=0.814469844577045, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.5890115623124625 pvalue=0.0)
+SpearmanrResult(correlation=0.785045638788854, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.621432926585317 pvalue=0.0)
+SpearmanrResult(correlation=0.815282032518502, pvalue=0.0)
+--------------------------------------------------
+corpus size 100
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.6098987797559512 pvalue=0.0)
+SpearmanrResult(correlation=0.8047175424201385, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.37244688937787557 pvalue=0.0)
+SpearmanrResult(correlation=0.5353631841795444, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.6494542908581716 pvalue=0.0)
+SpearmanrResult(correlation=0.8405782007375221, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.6121840368073614 pvalue=0.0)
+SpearmanrResult(correlation=0.8069636459342063, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.5807032606521304 pvalue=0.0)
+SpearmanrResult(correlation=0.7764220847324528, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.6098987797559512 pvalue=0.0)
+SpearmanrResult(correlation=0.8047175424201385, pvalue=0.0)
+****************************************************************************************************
+Aggregation way: geometric_mean
+--------------------------------------------------
+corpus size 1
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.32795815163032604 pvalue=0.0)
+SpearmanrResult(correlation=0.6895326527944815, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.3279401480296059 pvalue=0.0)
+SpearmanrResult(correlation=0.6895231915250678, pvalue=0.0)
+BLEU-DC
+KendalltauResult(correlation=0.54433974794959 pvalue=0.0)
+SpearmanrResult(correlation=0.7507003707094376, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.47533314662932585 pvalue=0.0)
+SpearmanrResult(correlation=0.6613170674767227, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.3702766953390678 pvalue=0.0)
+SpearmanrResult(correlation=0.5330935169669554, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.32795815163032604 pvalue=0.0)
+SpearmanrResult(correlation=0.6895326527944815, pvalue=0.0)
+--------------------------------------------------
+corpus size 20
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.44686977395479094 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.6270417384030631, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.3103787157431486 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.45054021608549744, pvalue=1.4494169370400438e-248)
+BLEU-DC
+KendalltauResult(correlation=0.4812866573314663 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.6676417624219554, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.4610633326665333 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.6439625574703185, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.4211123824764953 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.5954397884279892, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.44686977395479094 pvalue=1.6261114106259678e-237)
+SpearmanrResult(correlation=0.6270417384030631, pvalue=0.0)
+--------------------------------------------------
+corpus size 40
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.45627893578715745 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.6400821901092557, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.29689697939587917 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.4352484881793732, pvalue=2.9233326866179517e-230)
+BLEU-DC
+KendalltauResult(correlation=0.4910013202640528 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.6808402791218057, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.4741960392078416 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.6619912990265236, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.4362740548109622 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.6168479864809056, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.45627893578715745 pvalue=1.6491576993838923e-217)
+SpearmanrResult(correlation=0.6400821901092557, pvalue=0.0)
+--------------------------------------------------
+corpus size 60
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.45597759551910383 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.6397522673183841, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.2943854370874175 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.42968911643175484, pvalue=7.776899601122649e-224)
+BLEU-DC
+KendalltauResult(correlation=0.49241632326465296 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.6824772889773908, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.47729393878775755 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.6652003119345997, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.4398784556911382 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.6208125306973415, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.45597759551910383 pvalue=7.0177401220134695e-214)
+SpearmanrResult(correlation=0.6397522673183841, pvalue=0.0)
+--------------------------------------------------
+corpus size 80
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.46095091018203643 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.6439111691636537, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.29452802560512104 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.429311781486929, pvalue=2.1015466469687426e-223)
+BLEU-DC
+KendalltauResult(correlation=0.49699371874374876 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.6860560742807557, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.48409225845169035 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.671166352125643, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.445172474494899 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.6255179423045659, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.46095091018203643 pvalue=4.37516473887007e-214)
+SpearmanrResult(correlation=0.6439111691636537, pvalue=0.0)
+--------------------------------------------------
+corpus size 100
+**************************************************
+BLEU-DCOM
+KendalltauResult(correlation=0.45321632326465294 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.6350799034170347, pvalue=0.0)
+BLEU-FC
+KendalltauResult(correlation=0.28830726145229046 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.4214114565211127, pvalue=1.723561340525146e-214)
+BLEU-DC
+KendalltauResult(correlation=0.49029149829965996 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.6787357766169971, pvalue=0.0)
+BLEU-CN
+KendalltauResult(correlation=0.4786866173234647 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.6651167591352554, pvalue=0.0)
+BLEU-NCS
+KendalltauResult(correlation=0.4387151030206041 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.617909494286401, pvalue=0.0)
+BLEU-RC
+KendalltauResult(correlation=0.45321632326465294 pvalue=3.1713809088024e-205)
+SpearmanrResult(correlation=0.6350799034170347, pvalue=0.0)
+
+Process finished with exit code 0
