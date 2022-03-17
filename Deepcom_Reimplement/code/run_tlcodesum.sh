@@ -109,5 +109,4 @@ refs_filename=$output_dir/test.gold
 preds_filename=$output_dir/test.pred
 python evaluate.py --refs_filename $refs_filename --preds_filename $preds_filename 2>&1| tee $output_dir/score.log
 
-wget https://push.hellyw.com/60408f220f8ab9049557cdb3/itp/finished_deepcom
-rm -rf finished_deepcom
+
