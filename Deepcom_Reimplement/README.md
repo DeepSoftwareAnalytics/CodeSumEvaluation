@@ -31,12 +31,12 @@ bash preprocess.sh
 
 ```
 cd code/
-bash run_tlcodesum.sh $gpus
+bash run_tlcodesum.sh $gpus $seed
 ```
 
 For example:
 ```
-bash run_tlcodesum.sh 0
+bash run_tlcodesum.sh 0 0
 ```
 ## Evaluate
 
