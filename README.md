@@ -1,4 +1,6 @@
 # On the Evaluation of Neural Code Summarization
+This is the replication package for ["On the Evaluation of Neural Code Summarization"](https://arxiv.org/abs/2107.07112) accepted to ICSE2022.
+
 ![fig](Fig/awesome.png)
  
  Note: If the above image can not be rendered correctly, please clear the cache of web browser and refresh the page.
@@ -208,3 +210,16 @@ All the experiment results including the significant testing can be found [here]
 How do different datasets affect the performance?
 
 All the experiment results including the significant testing can be found [here](RQ/RQ3/RQ3.ipynb).
+
+## Citation
+If you use above data or source code , please consider citing our paper:
+
+  @inproceedings{shi2022evaluation,
+    title={On the evaluation of neural code summarization},
+    author={Shi, Ensheng and Wang, Yanlin and Du, Lun and Chen, Junjie and Han, Shi and Zhang, Hongyu and Zhang, Dongmei and Sun, Hongbin},
+    booktitle={Proceedings of the 44th International Conference on Software Engineering},
+    pages={1597--1608},
+    year={2022}
+  }
+
+Thanks!
